@@ -1,9 +1,9 @@
 package restaurant.exceptions;
 
-public class InvalidFormatException extends Exception {
+public class CommandFailedException extends Exception{
     private String message;
 
-    public InvalidFormatException(String message) {
+    public CommandFailedException(String message) {
         this.message = message;
     }
 

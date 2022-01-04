@@ -1,0 +1,6 @@
+command: ["soup", 12], 2, "Magheru"
+command: ["pancakes", 10, "lemonade", 13], 2, "Victoriei"
+command: ["lava cake", 15], 2, "Universitate"
+reservation: "Alina", 2, "21/11/2020", "Magheru"
+reservation: "Ana", 2, "21/11/2020", "Victoriei"
+reservation: "Alex", 2, "21/11/2020", "Universitate"

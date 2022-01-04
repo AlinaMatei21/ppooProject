@@ -1,21 +1,19 @@
 package restaurant;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.io.*;
+import java.util.*;
 
 public class Restaurant <T> implements Serializable {
     protected List<T> contents;
-    private String name;
+    private Locations location;
 
-    public Restaurant(String name) {
-        this.name = name;
+
+    public Restaurant(Locations location) {
+        this.location = location;
         contents = new ArrayList<T>();
     }
 
     public int getSize() {
-        System.out.println("There are " + contents.size() + " orders in " + name);
         return contents.size();
     }
 
@@ -31,15 +29,22 @@ public class Restaurant <T> implements Serializable {
         contents.remove(obj);
     }
 
-    public T get(int index) {
-        return contents.get(index);
-    }
 
     public void show(){
-        System.out.println("Restaurant " + name + " has the following orders:");
-        for(Iterator i = contents.iterator(); i.hasNext();)
-        {
+        System.out.println("Restaurant in " + location + " has: " + getSize());
+
+        for(Iterator i = contents.iterator();i.hasNext();) {
             System.out.println(i.next().toString());
         }
     }
+
+    public List<T> getContents() {
+        return contents;
+    }
+
+
+    public void setContents(List<T> contents) {
+        this.contents = contents;
+    }
+
 }

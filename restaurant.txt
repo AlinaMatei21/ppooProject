@@ -1,0 +1,7 @@
+[Command 
+ id: 287660c0-724c-4306-974a-1ada0224aec3, products: [ product: 'beef' price: 45.0], quantity: 2, location: 'Magheru', Reservation 
+  id: 9986dcac-ae2f-4b5a-9a5f-183d1f200e08, location: 'Magheru', date: Sun Dec 19 00:00:00 EET 3920, name: 'Cristiana', noPeople: 3, command: ["soup", 12], 2, "Magheru", reservation: "Alina", 2, "21/11/2020", "Magheru"][Command 
+ id: 44821eaf-d768-4700-8cdf-ed60f36ece4d, products: [ product: 'beer' price: 10.0], quantity: 2, location: 'Victoriei', Reservation 
+  id: 10833abe-af94-455f-bd71-6652bcc1e4ff, location: 'Victoriei', date: Tue Dec 21 00:00:00 EET 3920, name: 'Matei', noPeople: 5, command: ["pancakes", 10, "lemonade", 13], 2, "Victoriei", reservation: "Ana", 2, "21/11/2020", "Victoriei"][Command 
+ id: a7d39ad5-d113-42da-b266-74459c207015, products: [ product: 'lava cake' price: 15.0], quantity: 2, location: 'Universitate', Reservation 
+  id: 4aa795ed-517b-4c4d-bd72-9a875a40ec6f, location: 'Universitate', date: Mon Dec 20 00:00:00 EET 3920, name: 'Alina', noPeople: 2, command: ["lava cake", 15], 2, "Universitate", reservation: "Alex", 2, "21/11/2020", "Universitate"]

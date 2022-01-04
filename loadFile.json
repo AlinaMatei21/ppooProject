@@ -1,0 +1,51 @@
+{
+  "restaurant":[
+      {
+         "type":"command",
+         "products":[
+            {
+               "name":"soup",
+               "price":12
+            }
+         ],
+         "quantity":2,
+         "location":"Magheru"
+      },
+      {
+         "type":"command",
+         "products":[
+            {
+               "name":"lava cake",
+               "price":15
+            },
+            {
+               "name":"orange juice",
+               "price":"15"
+            }
+         ],
+         "quantity":2,
+         "location":"Magheru"
+      },
+      {
+         "type":"reservation",
+         "name":"Alina",
+         "noPers":3,
+         "date":"21/11/2020",
+         "location":"Magheru"
+      },
+      {
+         "type":"reservation",
+         "name":"Ana",
+         "noPers":4,
+         "date":"22/11/2020",
+         "location":"Victoriei"
+      },
+      {
+         "type":"reservation",
+         "name":"Alex",
+         "noPers":2,
+         "date":"30/11/2020",
+         "location":"Univeristate"
+      }
+   ]
+}
